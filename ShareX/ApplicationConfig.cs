@@ -37,6 +37,7 @@ namespace ShareX
 {
     public class ApplicationConfig : SettingsBase<ApplicationConfig>
     {
+        //Added some comments to ApplicationConfig.cs to see the changes in github desktop.
         public TaskSettings DefaultTaskSettings = new TaskSettings();
 
         public string FileUploadDefaultDirectory = "";
